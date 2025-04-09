@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class ZigZagPatternLogic1 {
     public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
+	System.out.print("Enter the Word:");
 	String word=scanner.next();
+	System.out.print("Enter the Number of Rows:");
 	int numRows=scanner.nextInt();
 	System.out.println(generateZigZagPattern(word,numRows));
     }
